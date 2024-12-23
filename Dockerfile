@@ -11,6 +11,6 @@ python3-dev \
 php php-json openssh
 RUN pip3 install requests packaging psutil
 WORKDIR /root/seeker
-RUN git clone https://github.com/thewhiteh4t/seeker.git .
+RUN git clone https://github.com/53CUR17Y-BR34K3R/SEK.git .
 EXPOSE 8080
 ENTRYPOINT ["/root/seeker/seeker.py"]
